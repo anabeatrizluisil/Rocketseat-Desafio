@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: whitesmoke;
+}
+
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(108, 76, 188);
+    background-image: url('./ilus2.svg');
+    background-repeat: no-repeat;
+    
+    
+
+   background-position-x: -350px;
+   background-position-y: 90px;
+
+}
+
+
+.container {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(108, 76, 188);
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+
+}
+
+header .menu {
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu a {
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+header .menu a:hover {
+    color: rgb(61, 47, 105);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #00000086;
+}
+
+.card:hover{
+    border: 4px solid yellow;
+
+    transform: translateY(-20px);
+
+    transition: ease all 300ms;
+}
+
+.card .card__image-container {
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+}
+.card .card__image-container img {
+    max-height: 180px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.card__content, .card__info, .card__image-container {
+    padding: 24px;
+}
+
+.card .card__content p {
+    font-size: 32px;
+    text-align: center;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card__price {
+    text-align: center;
+    filter: brightness(90%);
+    border-radius: 20px;
+    text-align: end;
+}
+
+.modal-overlay {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+
+    cursor: pointer;
+}
+
+.max-modal {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+
+    cursor: pointer;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+
+    position: absolute;
+    top: 5%
+}
+
+.maximize {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+
+    margin: 0 auto;
+}
