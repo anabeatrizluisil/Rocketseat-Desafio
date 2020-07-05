@@ -10,4 +10,4 @@
 
 # Projeto
 
-![ ] (Rocketseat-Desafio/Rocketseat.gif)
+<img src="https://github.com/anabeatrizluisil/Rocketseat-Desafio/blob/master/Rocketseat.gif">
