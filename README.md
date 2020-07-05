@@ -1,6 +1,6 @@
-# Rocketseat-Desafio
+# Sobre
 
-> Desafio do Bootcamp LaunchBase da Rocketseat para criar um site da página da escola.
+<p> A proposta do desafio do bootcamp LaunchBase da Rocketseat é introduzir noções de front-end com a estilização de um site para escola.</p>
 
 # Tecnologias 
 
