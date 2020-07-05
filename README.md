@@ -11,3 +11,7 @@
 # Projeto
 
 <img src="https://github.com/anabeatrizluisil/Rocketseat-Desafio/blob/master/Rocketseat.gif">
+
+# Live version
+
+http://https://rocketseat-desafio.vercel.app/
