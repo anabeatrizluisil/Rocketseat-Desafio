@@ -10,4 +10,4 @@
 
 # Projeto
 
-![Gif] (master/Rocketseat.gif)
+![] (Rocketseat-Desafio/Rocketseat.gif)
